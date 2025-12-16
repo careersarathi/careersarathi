@@ -63,6 +63,11 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Force dark mode color cascade for Tailwind 4 */
+.dark {
+  color-scheme: dark;
+}
+
 /* Base styles */
 * {
   border-color: var(--border);
